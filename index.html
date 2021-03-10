@@ -1,36 +1,58 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHOE PALACE</title>
-    <link rel="stylesheet" href="./main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <title>Granny's Pies</title>
+   PIES! PIES! Granny's Pies, for the best Pies, Since 1999"
+    /> <meta
+      name="description"
+      content=" PIES! 
 
-<body>
+    <!--character encoding-->
 
-       
-        <a class="login-btn" href="about.html">LOGIN</a>
-   
-    <h1>SHOE PALACE</h1>
-    <a class="about-btn" href="about.html" target="_blank" >ABOUT US</a>
-    <footer>
+    <meta charset="utf-8" />
 
+    <!--Pie icon on the tab-->
 
-    <p>
-        Copyright &copy; 2021 <br />
-        SHOE PALACE inc. <br />
-        All rights reserved.</p>
-        <a  href="https://www.instagram.com/richie_andie/"><img src="https://img.icons8.com/material-rounded/48/000000/instagram-new.png"/></a>
-        
-    <br>
-    <a href="index.html"><img src="https://img.icons8.com/android/48/000000/thick-arrow-pointing-up.png" /></a>
-    
-   
-    
-    </footer>
-</body>
+    <link rel="icon" href="./Resourses/Pie.png" />
+
+    <!--Device Width Scaling-->
+
+    <meta name="viewport" content="width=device-width initial scale=0" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+  </head>
+
+  <!--Code Starts Here-->
+
+  <body class="body">
+    <div id="background_image">
+      <div id="main_title">Grannys<br />Pies</div>
+      <h2 id="greatest_pies">For the greatest pie recipes</h2>
+
+      <!--button shortcut to recipe page-->
+
+      <form class="recipe_button" target="_blank" action="./HTML/pie.html">
+        <button id="recipe_button"><strong>OUR RECIPES</strong></button>
+      </form>
+
+      <!--User email subscription-->
+
+      <form class="submit_email" name="userdetails">
+        <p id="email_submit_text">
+          For our monthly top pie picks send us your email
+        </p>
+        <label for="email_input" id="email_text">email</label>
+        <input
+          id="email_input"
+          type="email"
+          required
+          minlength="5"
+          placeholder="Your email here"
+          autocomplete="on"
+        />
+        <button id="submit_button" type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </body>
 </html>
