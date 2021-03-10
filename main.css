@@ -1,0 +1,74 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url(./image/Air_Jordans/air_jordan_1_chicago_edited_2.jpg);
+background-position: center;
+overflow: none;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh; 
+
+
+}
+
+h1{
+    font-size: 7rem;
+    text-align: left;
+    padding: 0 0 0 10rem;
+    
+}
+.login-btn{
+    text-decoration: none;
+    color:black;
+    border: 2px solid yellow;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10vh 0 0 90vw;
+display: inline-block;
+outline: none;
+}
+.about-btn{
+    text-decoration: none;
+    color:black;
+    border: 2px solid yellow;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0 0 0 10rem;
+
+display: inline-block;
+outline: none;
+}
+footer{
+    height: 20vh;
+    margin-top: ;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+p{
+    text-align: center;
+    padding-top: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+    border: 2px solid yellow;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 1rem 0 0 10rem;
+
+display: inline-block;
+outline: none;
+}
+footer img{
+    cursor: pointer; 
+}
